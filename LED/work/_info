@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\26919\Desktop\FPGA\LED
+vled
+Z1 I?hKQj^D4AG=zBz_OI<em02
+Z2 V9]WC@cXd63jTlmmQzB1m41
+Z3 dC:\Users\26919\Desktop\FPGA\LED
+Z4 w1775474556
+Z5 8C:/Users/26919/Desktop/FPGA/LED/led.v
+Z6 FC:/Users/26919/Desktop/FPGA/LED/led.v
+L0 2
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|C:/Users/26919/Desktop/FPGA/LED/led.v|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 XGE>:X8kb@FmRWl372z:Q2
+!s85 0
+Z11 !s108 1775474565.572000
+Z12 !s107 C:/Users/26919/Desktop/FPGA/LED/led.v|
+!s101 -O0
+vled_tb
+!i10b 1
+Z13 !s100 :ah_c=3C9T6QcWlXQN^1S3
+Z14 IINA;>HKC<L1dWIVLiSmI?0
+Z15 VhNhblPU3d^Y;][gHQT[Q`1
+R3
+Z16 w1775474387
+Z17 8C:/Users/26919/Desktop/FPGA/LED/led_tb.v
+Z18 FC:/Users/26919/Desktop/FPGA/LED/led_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1775474565.599000
+!s107 C:/Users/26919/Desktop/FPGA/LED/led_tb.v|
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/26919/Desktop/FPGA/LED/led_tb.v|
+!s101 -O0
+R9

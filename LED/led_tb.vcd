@@ -1,0 +1,17 @@
+$date
+	Mon Apr 06 18:27:26 2026
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module led_tb $end
+$var wire 1 ! led_tb $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+$end
