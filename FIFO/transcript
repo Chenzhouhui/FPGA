@@ -1,0 +1,32 @@
+# vsim -do {run -all; quit -f} -c fifo_tb 
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.fifo
+# Loading work.addr_gen
+# run -all 
+# 
+# === Test 1: Basic write ===
+# Write: 0x24 | Count: 1
+# Write: 0x81 | Count: 2
+# Write: 0x09 | Count: 3
+# Write: 0x63 | Count: 4
+# 
+# === Test 2: Basic read ===
+# Read: 0x24 | Count: 3
+# Read: 0x81 | Count: 2
+# Read: 0x09 | Count: 1
+# Read: 0x63 | Count: 0
+# 
+# === Test 3: Concurrent R/W ===
+# Write: 0x0d | Read: 0x63 | Count: 1
+# Write: 0x8d | Read: 0x0d | Count: 1
+# Write: 0x65 | Read: 0x8d | Count: 1
+# Write: 0x12 | Read: 0x65 | Count: 1
+# 
+# === Test 4: Boundary cases ===
+# Overflow count: 4
+# Underflow count: 0
+# 
+# Testbench completed
+# ** Note: $finish    : fifo_tb.v(88)
+#    Time: 345 ps  Iteration: 0  Instance: /fifo_tb

@@ -1,0 +1,586 @@
+$date
+	Tue Apr 14 20:27:03 2026
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module fifo_tb $end
+$var parameter 32 ! DEPTH $end
+$var parameter 32 " AWIDTH $end
+$var reg 1 # clk $end
+$var reg 1 $ rst_n $end
+$var reg 1 % wr_en $end
+$var reg 1 & rd_en $end
+$var reg 8 ' wr_data [7:0] $end
+$var wire 1 ( dout [7] $end
+$var wire 1 ) dout [6] $end
+$var wire 1 * dout [5] $end
+$var wire 1 + dout [4] $end
+$var wire 1 , dout [3] $end
+$var wire 1 - dout [2] $end
+$var wire 1 . dout [1] $end
+$var wire 1 / dout [0] $end
+$var wire 1 0 count [2] $end
+$var wire 1 1 count [1] $end
+$var wire 1 2 count [0] $end
+$scope module dut $end
+$var parameter 32 3 DEPTH $end
+$var parameter 32 4 AWIDTH $end
+$var wire 1 5 clk $end
+$var wire 1 6 rst_n $end
+$var wire 1 7 wr_en $end
+$var wire 1 8 rd_en $end
+$var wire 1 9 wr_data [7] $end
+$var wire 1 : wr_data [6] $end
+$var wire 1 ; wr_data [5] $end
+$var wire 1 < wr_data [4] $end
+$var wire 1 = wr_data [3] $end
+$var wire 1 > wr_data [2] $end
+$var wire 1 ? wr_data [1] $end
+$var wire 1 @ wr_data [0] $end
+$var reg 8 A dout [7:0] $end
+$var reg 3 B count [2:0] $end
+$var wire 1 C w_addr [1] $end
+$var wire 1 D w_addr [0] $end
+$var wire 1 E r_addr [1] $end
+$var wire 1 F r_addr [0] $end
+$var wire 1 G rd_fire $end
+$var wire 1 H wr_fire $end
+$scope module fifo_writer $end
+$var parameter 32 I MAX_DATA $end
+$var parameter 32 J AWDTH $end
+$var wire 1 5 clk $end
+$var wire 1 6 rst_n $end
+$var wire 1 H en $end
+$var reg 2 K addr [1:0] $end
+$upscope $end
+$scope module fifo_reader $end
+$var parameter 32 L MAX_DATA $end
+$var parameter 32 M AWDTH $end
+$var wire 1 5 clk $end
+$var wire 1 6 rst_n $end
+$var wire 1 G en $end
+$var reg 2 N addr [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+0$
+0%
+0&
+b0 '
+b0 A
+b0 B
+b0 K
+b0 N
+b100 !
+b10 "
+b100 3
+b10 4
+b100 I
+b10 J
+b100 L
+b10 M
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+02
+01
+00
+0D
+0C
+0F
+0E
+0G
+0H
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+$end
+#5
+1#
+15
+#10
+0#
+05
+#15
+1$
+1%
+b100100 '
+1#
+17
+1>
+1;
+1H
+16
+15
+b1 K
+b1 B
+12
+1D
+#16
+b10000001 '
+1@
+0>
+0;
+19
+#20
+0#
+05
+#25
+1#
+15
+b10 K
+b10 B
+02
+11
+0D
+1C
+#26
+b1001 '
+1=
+09
+#30
+0#
+05
+#35
+1#
+15
+b11 K
+b11 B
+12
+1D
+#36
+b1100011 '
+1?
+0=
+1;
+1:
+#40
+0#
+05
+#45
+1#
+15
+b0 K
+b100 B
+0H
+02
+01
+10
+0D
+0C
+#46
+0%
+1&
+07
+18
+1G
+#50
+0#
+05
+#55
+1#
+15
+b100100 A
+b1 N
+b11 B
+12
+11
+00
+1F
+1-
+1*
+#60
+0#
+05
+#65
+1#
+15
+b10000001 A
+b10 N
+b10 B
+02
+0F
+1E
+1/
+0-
+0*
+1(
+#70
+0#
+05
+#75
+1#
+15
+b1001 A
+b11 N
+b1 B
+12
+01
+1F
+1,
+0(
+#80
+0#
+05
+#85
+1#
+15
+b1100011 A
+b0 N
+b0 B
+0G
+02
+0F
+0E
+1.
+0,
+1*
+1)
+#86
+0&
+1%
+1&
+b1101 '
+17
+0?
+1>
+1=
+0;
+0:
+1H
+#90
+0#
+05
+#95
+1#
+15
+b1 K
+b1 B
+1G
+12
+1D
+#96
+b10001101 '
+19
+#100
+0#
+05
+#105
+1#
+15
+b1101 A
+b10 K
+b1 N
+1F
+0D
+1C
+0.
+1-
+1,
+0*
+0)
+#106
+b1100101 '
+0=
+1;
+1:
+09
+#110
+0#
+05
+#115
+1#
+15
+b10001101 A
+b11 K
+b10 N
+0F
+1E
+1D
+1(
+#116
+b10010 '
+0@
+1?
+0>
+1<
+0;
+0:
+#120
+0#
+05
+#125
+1#
+15
+b1100101 A
+b0 K
+b11 N
+1F
+0D
+0C
+0,
+1*
+1)
+0(
+#126
+0%
+0&
+1%
+b1011100 '
+08
+0?
+1>
+1=
+1:
+0G
+#130
+0#
+05
+#135
+1#
+15
+b10111011 '
+1@
+1?
+0>
+1;
+0:
+19
+b1 K
+b10 B
+02
+11
+1D
+#140
+0#
+05
+#145
+1#
+15
+b1010000 '
+0@
+0?
+0=
+0;
+1:
+09
+b10 K
+b11 B
+12
+0D
+1C
+#150
+0#
+05
+#155
+1#
+15
+b11011011 '
+1@
+1?
+1=
+19
+b11 K
+b100 B
+0H
+02
+01
+10
+1D
+#160
+0#
+05
+#165
+1#
+15
+b1011110 '
+0@
+1>
+09
+#170
+0#
+05
+#175
+1#
+15
+b11110100 '
+0?
+0=
+1;
+19
+#180
+0#
+05
+#185
+1#
+15
+0%
+1&
+07
+18
+1G
+#190
+0#
+05
+#195
+1#
+15
+b10010 A
+b0 N
+b11 B
+12
+11
+00
+0F
+0E
+0/
+1.
+0-
+1+
+0*
+0)
+#200
+0#
+05
+#205
+1#
+15
+b1011100 A
+b1 N
+b10 B
+02
+1F
+0.
+1-
+1,
+1)
+#210
+0#
+05
+#215
+1#
+15
+b10111011 A
+b10 N
+b1 B
+12
+01
+0F
+1E
+1/
+1.
+0-
+1*
+0)
+1(
+#220
+0#
+05
+#225
+1#
+15
+b1010000 A
+b11 N
+b0 B
+0G
+02
+1F
+0/
+0.
+0,
+0*
+1)
+0(
+#230
+0#
+05
+#235
+1#
+15
+#240
+0#
+05
+#245
+1#
+15
+0&
+08
+#250
+0#
+05
+#255
+1#
+15
+#260
+0#
+05
+#265
+1#
+15
+#270
+0#
+05
+#275
+1#
+15
+#280
+0#
+05
+#285
+1#
+15
+#290
+0#
+05
+#295
+1#
+15
+#300
+0#
+05
+#305
+1#
+15
+#310
+0#
+05
+#315
+1#
+15
+#320
+0#
+05
+#325
+1#
+15
+#330
+0#
+05
+#335
+1#
+15
+#340
+0#
+05
