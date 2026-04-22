@@ -1,0 +1,7 @@
+# vsim -do {run -all; quit -f} -c work.spi_tb 
+# Loading work.spi_tb
+# Loading work.spi_master
+# Loading work.spi_slave
+# run -all 
+# ** Note: $finish    : spi_tb.v(81)
+#    Time: 1550 ns  Iteration: 0  Instance: /spi_tb

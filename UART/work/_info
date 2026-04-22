@@ -1,0 +1,62 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\26919\Desktop\FPGA\UART
+vuart_rx
+Z1 I:4iH[YW:^zi`Pan9BHWNE2
+Z2 V>5H7CQEnDIjPaCo3Xfa]G1
+Z3 dC:\Users\26919\Desktop\FPGA\UART
+Z4 w1776758938
+Z5 8C:/Users/26919/Desktop/FPGA/UART/uart_rx.v
+Z6 FC:/Users/26919/Desktop/FPGA/UART/uart_rx.v
+L0 3
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 KLoaOa6RAb@M3Z<QJchRO2
+!s85 0
+Z10 !s108 1776758962.477000
+Z11 !s107 C:/Users/26919/Desktop/FPGA/UART/uart_rx.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/Users/26919/Desktop/FPGA/UART/uart_rx.v|
+!s101 -O0
+vuart_tb
+!i10b 1
+!s100 _;XeM[0ZXM40m`UQIkIJ=0
+Ie]2iFKY>`2lLG5j^Do`k;1
+Z13 VFl7W4NoZ`IckTEZUnP;O=1
+R3
+Z14 w1776758460
+8C:/Users/26919/Desktop/FPGA/UART/uart_tb.v
+FC:/Users/26919/Desktop/FPGA/UART/uart_tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1776758962.509000
+!s107 C:/Users/26919/Desktop/FPGA/UART/uart_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/26919/Desktop/FPGA/UART/uart_tb.v|
+!s101 -O0
+R8
+vuart_tx
+Z15 I>P13Km0Ko==5G9R1C87aR0
+Z16 V7GBLR71j=]`lFLY7ei2HC1
+R3
+Z17 w1776757071
+Z18 8C:/Users/26919/Desktop/FPGA/UART/uart_tx.v
+Z19 FC:/Users/26919/Desktop/FPGA/UART/uart_tx.v
+L0 3
+R7
+r1
+31
+R8
+Z20 !s100 SmLhV=_XREljiZANiN:hT0
+Z21 !s108 1776758962.446000
+Z22 !s107 C:/Users/26919/Desktop/FPGA/UART/uart_tx.v|
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/26919/Desktop/FPGA/UART/uart_tx.v|
+!i10b 1
+!s85 0
+!s101 -O0

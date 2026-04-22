@@ -1,0 +1,35 @@
+# do run_uart.do 
+# Copying C:\Quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\Quartus\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	uart_tx
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module uart_tb
+# 
+# Top level modules:
+# 	uart_tb
+# vsim work.uart_tb 
+# Loading work.uart_tb
+# Loading work.uart_tx
+# Loading work.uart_rx
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: 26919  Hostname: DESKTOP-R2Q2O9J  ProcessID: 127364
+# 
+#           Attempting to use alternate WLF file "./wlftmakdi5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftmakdi5
+# 
+# ** Note: $finish    : uart_tb.v(57)
+#    Time: 11150 ns  Iteration: 0  Instance: /uart_tb

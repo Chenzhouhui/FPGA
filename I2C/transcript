@@ -1,0 +1,7 @@
+# vsim -do {run -all; quit -f} -c work.i2c_tb 
+# Loading work.i2c_tb
+# Loading work.i2c_master
+# Loading work.i2c_slave
+# run -all 
+# ** Note: $finish    : i2c_tb.v(89)
+#    Time: 26250 ns  Iteration: 0  Instance: /i2c_tb

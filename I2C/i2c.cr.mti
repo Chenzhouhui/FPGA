@@ -1,0 +1,22 @@
+C:/Users/26919/Desktop/FPGA/I2C/i2c_tb.v {1 {vlog -work work C:/Users/26919/Desktop/FPGA/I2C/i2c_tb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module i2c_tb
+
+Top level modules:
+	i2c_tb
+
+} {} {}} C:/Users/26919/Desktop/FPGA/I2C/i2c_slave.v {1 {vlog -work work C:/Users/26919/Desktop/FPGA/I2C/i2c_slave.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module i2c_slave
+
+Top level modules:
+	i2c_slave
+
+} {} {}} C:/Users/26919/Desktop/FPGA/I2C/i2c_master.v {1 {vlog -work work C:/Users/26919/Desktop/FPGA/I2C/i2c_master.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module i2c_master
+
+Top level modules:
+	i2c_master
+
+} {} {}}
